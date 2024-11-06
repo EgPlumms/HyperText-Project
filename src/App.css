@@ -1,0 +1,226 @@
+@font-face {
+  font-family: Blood;
+  src: url(/public/Nosifer-Regular.ttf);
+}
+
+body{
+  background-color: black;
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  padding-top: 35vh;
+  text-align: center;
+  color: white;
+  font-family: cursive;
+  font-size: 25px;
+}
+
+
+.topnav{
+  background-color: #644545;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: BetterFont;
+}
+
+.topnav a:hover {
+  background-color: #3b2929;
+  color: black;
+}
+#logo{
+  height: 100%;
+  width: 100px;
+}
+
+.topnav a.active {
+  background-color: #0452aa;
+  color: white;
+} 
+
+.container{
+  text-align: center;
+  width: fit-content;
+  height: 40%;
+  display: block;
+  border-radius: 10%;
+  position: absolute;
+  background-color: darkgrey;
+}
+
+.outputText{
+  color: white;
+}
+
+.text{
+  color: white;
+  font-family: cursive;
+  font-size: 25px;
+  text-align: center;
+}
+
+#Gboot{
+  font: bold 20px Arial;
+  text-decoration: none;
+  background-color: #ffe6e6;
+  color: #61a9bb;
+  padding: 2px 25px 2px 25px;
+  border-top: 1px solid #61a9bb;
+  border-right: 1px solid #0f4755;
+  border-bottom: 1px solid #0f4755;
+  border-left: 1px solid #0f4755;
+  border-radius: 12px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .text {
+    font-size: 15px;
+  }
+  #Gboot{
+    font-size: 14px;
+    padding: 2px 6px 2px 6px;
+  }
+}
+
+#backing{
+  background-color: red;
+  color: black;
+}
+
+
+#ital{
+  text-decoration: overline;
+  text-decoration-color: white;
+  font-weight: bold;
+}
+#boot{
+  font: bold 20px Arial;
+  text-decoration: none;
+  background-color: #000000;
+  color: #ad0101;
+  padding: 2px 25px 2px 25px;
+  border-top: 1px solid #6e0000;
+  border-right: 1px solid #5f0000;
+  border-bottom: 1px solid #5f0000;
+  border-left: 1px solid #5f0000;
+  border-radius: 12px;
+}
+
+.background{
+  background-image: url('../public/backyeet.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  filter: brightness(25%)
+}
+
+.badbackground{
+  background-image: url('../public/BadBacking.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  filter: brightness(25%)
+}
+
+.GoodBackground{
+  background-image: url('../public/GoodBacking.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  filter: brightness(45%)
+}
+
+.button{
+  font: bold 25px Arial;
+  text-decoration: none;
+  background-color: #000000;
+  color: #ad0101;
+  padding: 2px 15px 2px 15px;
+  border-top: 1px solid #6e0000;
+  border-right: 1px solid #5f0000;
+  border-bottom: 1px solid #5f0000;
+  border-left: 1px solid #5f0000;
+  border-radius: 12px;
+}
+
+.secret{
+  color: white;
+  display: inline-flex;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.outcome{
+  font-family: fantasy;
+  font-weight: bold;
+  font-style: italic;
+  color: #ff0000;
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+.gOutcome{
+  font-family: fantasy;
+  font-weight: bold;
+  font-style: italic;
+  color: #61a9bb;
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+.True{
+  color: #DAA520;
+  font-size: 50px;
+  text-decoration: underline;
+  font-family: fantasy;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.BTrue{
+  color: #451515;
+  font-size: 50px;
+  text-decoration: underline;
+  font-family: fantasy;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.size{
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.smol{
+font-size: 20px;
+}
+
+.blood{
+  font-family: Blood;
+  color: #a00000;
+}
+
+/* #8f1e1e (Alice's Descent Title Original Colour) */
